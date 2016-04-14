@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7f2f3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/news"
+            android:onClick="News"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_press"
+            android:text="NEWS"
+            android:layout_marginLeft="70dp"
+
+            android:textColor="#008080" />
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+
+            android:background="@drawable/button_press"
+            android:text="GALLERY"
+            android:onClick="Gallery"
+            android:textColor="#008080"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/events"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_press"
+            android:text="EVENTS"
+            android:onClick="Events"
+            android:layout_marginLeft="70dp"
+            android:textColor="#008080"/>
+        <Button
+            android:id="@+id/notifications"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/button_press"
+            android:text="NOTIFICATIONS"
+            android:onClick="Notifications"
+            android:textColor="#008080"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/mess"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_press"
+            android:text="MESS"
+            android:onClick="Mess"
+            android:layout_marginLeft="70dp"
+            android:textColor="#008080"/>
+        <Button
+            android:id="@+id/complaint"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/button_press"
+            android:text="COMPL-AINT"
+            android:onClick="Complaint"
+            android:textColor="#008080"/>
+    </LinearLayout>
+
+</LinearLayout>
